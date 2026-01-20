@@ -38,8 +38,8 @@ public class DataLoader implements CommandLineRunner {
         );
 
         // Save to database
-        repository.saveAll(locations);
-
-        System.out.println("Locations saved to DB!");
+//        repository.saveAll(locations);
+//
+//        System.out.println("Locations saved to DB!");
     }
 }
